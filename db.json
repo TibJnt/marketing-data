@@ -1,0 +1,74 @@
+{
+    "users": [
+        {
+            "id": "user1",
+            "clicks": 120,
+            "impressions": 2000,
+            "conversionRate": 0.06,
+            "emailOpens": 50,
+            "channels": [
+                "email",
+                "social",
+                "organic"
+            ]
+        },
+        {
+            "id": "user2",
+            "clicks": 80,
+            "impressions": 1800,
+            "conversionRate": 0.04,
+            "emailOpens": 20,
+            "channels": [
+                "social",
+                "organic"
+            ]
+        }
+    ],
+    "campaigns": [
+        {
+            "id": "campaign1",
+            "name": "Winter Sale",
+            "budget": 5000,
+            "keywords": [
+                "winter",
+                "sale",
+                "discount"
+            ],
+            "targetAudience": [
+                "18-35",
+                "female"
+            ]
+        },
+        {
+            "id": "campaign2",
+            "name": "Summer Collection",
+            "budget": 8000,
+            "keywords": [
+                "summer",
+                "clothing",
+                "new arrivals"
+            ],
+            "targetAudience": [
+                "18-35",
+                "male",
+                "female"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "id": "event1",
+            "eventType": "pageView",
+            "timestamp": "2023-01-01T12:00:00Z",
+            "userId": "user1",
+            "campaignId": "campaign1"
+        },
+        {
+            "id": "event2",
+            "eventType": "click",
+            "timestamp": "2023-01-02T14:30:00Z",
+            "userId": "user2",
+            "campaignId": "campaign2"
+        }
+    ]
+}
